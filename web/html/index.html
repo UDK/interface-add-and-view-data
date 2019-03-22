@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Интерфейс добавления и просмотра данных</title>
-    <link rel="stylesheet" href="../css/style_index.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery-3.3.1.js"></script>
     <script src="../js/bootstrap.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="container col-4 offset-4 text-center justify-content-center">
     <ul class="nav nav-tabs" id="Tab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="tab-add" href="#add" role="tab" data-toggle="tab" aria-controls="add"
-               aria-selected="true">
+            <a class="nav-link active" href="#add" role="tab" data-toggle="tab">
                 Добавление
             </a>
         </li>
         <li class="nav-link">
-            <a class="nav-link" id="tab-view" href="" role="tab" data-toggle="tab" aria-controls="view"
-               aria-selected="false">
+            <a class="nav-link" href="#view" role="tab" data-toggle="tab">
                 Показать
             </a>
         </li>
     </ul>
+    <div class="tab-content" id="TabContent">
+        <div class="tab-pane fade show active" id="add">
+            <br/><br/><br/>
+            <input type="text" class="form-control col-4 offset-4" placeholder="Введите страну">
+            <br/>
+            <button type="button" class="btn col-3 btn-dark button">Добавить</button>
+        </div>
+        <div class="tab-pane fade" id="view">
+            <h1>asdsdasd</h1>
+        </div>
+    </div>
+</div>
+<!--<ul class="nav nav-tabs" id="Tab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="tab-add" href="#add" role="tab" data-toggle="tab" aria-controls="add"
+           aria-selected="true">
+            Добавление
+        </a>
+    </li>
+    <li class="nav-link">
+        <a class="nav-link" id="tab-view" href="" role="tab" data-toggle="tab" aria-controls="view"
+           aria-selected="false">
+            Показать
+        </a>
+    </li>
+</ul>
     <div class="tab-content" id="TabContent">
         <div class="tab-pane fade show active" id="add" role="tabpanel" aria-labelledby="tab-add">
             <br/><br/><br/>
@@ -34,6 +58,6 @@
             <p>dsdsa</p>
         </div>
     </div>
-</div>
+</div>-->
 </body>
 </html>
