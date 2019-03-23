@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1adb9660-096b-420b-9058-6d227f05c69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/php/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/php/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/php/response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/php/word_with_db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style_index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/php/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +19,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/php/response.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="532">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/style_index.css">
+        <entry file="file://$PROJECT_DIR$/web/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="275">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1875">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/bootstrap.bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,8 +74,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/php/index.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/php/word_with_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="n#__construct#0;n#work_with_db#0;n#!!top" />
+                <element signature="n#Connect#0;n#work_with_db#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/php/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -62,16 +120,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/html/index1.html" />
-        <option value="$PROJECT_DIR$/web/css/style_index.css" />
         <option value="$PROJECT_DIR$/web/js/index_function.js" />
-        <option value="$PROJECT_DIR$/web/html/index.html" />
+        <option value="$PROJECT_DIR$/web/css/style_index.css" />
+        <option value="A:/PHP/OSPanel/domains/localhost/index.php" />
         <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/web/php/config.php" />
+        <option value="$PROJECT_DIR$/web/php/config/config.php" />
+        <option value="$PROJECT_DIR$/web/html/post.php" />
         <option value="$PROJECT_DIR$/web/php/index.php" />
+        <option value="$PROJECT_DIR$/web/php/post.php" />
+        <option value="$PROJECT_DIR$/web/php/word_with_db.php" />
+        <option value="$PROJECT_DIR$/web/php/response.php" />
+        <option value="$PROJECT_DIR$/web/js/index.js" />
+        <option value="$PROJECT_DIR$/web/html/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -84,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,11 +175,22 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="interface_country" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interface_country" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interface_country" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interface_country" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,15 +201,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\html" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web" />
       <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\php" />
       <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\js" />
       <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\css" />
       <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\img" />
-      <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\php" />
+      <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\php\config" />
+      <recent name="C:\Users\UDK\PhpstormProjects\interface_country\web\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,6 +225,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/web/php/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,63 +254,69 @@
       <workItem from="1553197149665" duration="93000" />
       <workItem from="1553197257506" duration="994000" />
       <workItem from="1553243433505" duration="881000" />
-      <workItem from="1553249286743" duration="1431000" />
+      <workItem from="1553249286743" duration="1545000" />
+      <workItem from="1553280742458" duration="1201000" />
+      <workItem from="1553287889379" duration="638000" />
+      <workItem from="1553334103496" duration="20687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28548000" />
+    <option name="totallyTimeSpent" value="51188000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16852146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14748785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="PHP-CGI Server" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39638934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3320251" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.06750392" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3320251" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16855754" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.06750392" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3320251" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://A:/PHP/OSPanel/domains/localhost/index.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/php/index.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
@@ -233,8 +329,8 @@
     <entry file="file://$PROJECT_DIR$/web/html/index1.html" />
     <entry file="file://$PROJECT_DIR$/web/js/index_function.js" />
     <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -246,34 +342,94 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
+    <entry file="file://A:/PHP/OSPanel/domains/localhost/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/php/index.php">
+    <entry file="file://$PROJECT_DIR$/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/style_index.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/php/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/php/word_with_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="n#__construct#0;n#work_with_db#0;n#!!top" />
+            <element signature="n#Connect#0;n#work_with_db#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/php/response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1875">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="532">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

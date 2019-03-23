@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/jquery-3.3.1.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <script src="../js/index.js"></script>
 </head>
 <body>
 <div class="container col-4 offset-4 text-center justify-content-center">
@@ -16,7 +17,7 @@
             </a>
         </li>
         <li class="nav-link">
-            <a class="nav-link" href="#view" role="tab" data-toggle="tab">
+            <a class="nav-link" href="#view" role="tab" id="view_db" data-toggle="tab">
                 Показать
             </a>
         </li>
@@ -24,40 +25,31 @@
     <div class="tab-content" id="TabContent">
         <div class="tab-pane fade show active" id="add">
             <br/><br/><br/>
-            <input type="text" class="form-control col-4 offset-4" placeholder="Введите страну">
+            <input type="text" id="input_country" class="form-control col-4 offset-4" placeholder="Введите страну">
             <br/>
-            <button type="button" class="btn col-3 btn-dark button">Добавить</button>
+            <button type="button" id="add_country_button" class="btn col-3 btn-dark button">Добавить</button>
         </div>
         <div class="tab-pane fade" id="view">
-            <h1>asdsdasd</h1>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th class="justify-content-lg-start" scope='col'>#</th>
+                    <th scope="col">Страна</th>
+                </tr>
+                </thead>
+                <tbody id>
+
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
-<!--<ul class="nav nav-tabs" id="Tab" role="tablist">
-    <li class="nav-item">
-        <a class="nav-link active" id="tab-add" href="#add" role="tab" data-toggle="tab" aria-controls="add"
-           aria-selected="true">
-            Добавление
-        </a>
-    </li>
-    <li class="nav-link">
-        <a class="nav-link" id="tab-view" href="" role="tab" data-toggle="tab" aria-controls="view"
-           aria-selected="false">
-            Показать
-        </a>
-    </li>
-</ul>
-    <div class="tab-content" id="TabContent">
-        <div class="tab-pane fade show active" id="add" role="tabpanel" aria-labelledby="tab-add">
-            <br/><br/><br/>
-            <input type="text" class="form-control " placeholder="Введите страну">
-            <br/>
-            <button type="button" class="btn col-1 btn-dark button">Добавить</button>
-        </div>
-        <div class="tab-pane fade" id="view" role="tabpanel" aria-labelledby="tab-view">
-            <p>dsdsa</p>
-        </div>
-    </div>
-</div>-->
 </body>
+<script>
+    $(document).ready(function () {
+        $('#view_db').click(function () {
+
+        })
+    })
+</script>
 </html>
