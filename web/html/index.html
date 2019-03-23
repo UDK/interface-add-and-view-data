@@ -12,7 +12,7 @@
 <div class="container col-4 offset-4 text-center justify-content-center">
     <ul class="nav nav-tabs" id="Tab" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" href="#add" role="tab" data-toggle="tab">
+            <a class="nav-link active" href="#add" id="view_add" role="tab" data-toggle="tab">
                 Добавление
             </a>
         </li>
@@ -30,14 +30,14 @@
             <button type="button" id="add_country_button" class="btn col-3 btn-dark button">Добавить</button>
         </div>
         <div class="tab-pane fade" id="view">
-            <table class="table">
+            <table class="table" id="table">
                 <thead>
                 <tr>
                     <th class="justify-content-lg-start" scope='col'>#</th>
                     <th scope="col">Страна</th>
                 </tr>
                 </thead>
-                <tbody id>
+                <tbody class="table_country_view">
 
                 </tbody>
             </table>
@@ -45,11 +45,4 @@
     </div>
 </div>
 </body>
-<script>
-    $(document).ready(function () {
-        $('#view_db').click(function () {
-
-        })
-    })
-</script>
 </html>
