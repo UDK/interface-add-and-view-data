@@ -1,0 +1,1 @@
+For correct operation of the database, there is a dump database (path: ./dump_db/country_db.sql). Settings for connecting to the database are located at path: ./php/config/config.php. I used the open server with php 7.3.3 and 10.3.13-MariaDB

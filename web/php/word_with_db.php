@@ -5,6 +5,9 @@ class work_with_db
     private $config;
     private $db_connect;
 
+    /**
+     * check config file.
+     */
     public function __construct()
     {
 
@@ -19,6 +22,9 @@ class work_with_db
         }
     }
 
+    /**
+     * Connect with DB
+     */
     private function Connect()
     {
         try
@@ -33,6 +39,10 @@ class work_with_db
         }
     }
 
+    /**
+     *
+     * @return associative array with country
+     */
     public function Get_db()
     {
         $request = 'SELECT * FROM country';
@@ -40,6 +50,10 @@ class work_with_db
         return $data->fetchAll();
     }
 
+    /**
+     * @param $country the name of the country
+     * @return string response execution
+     */
     public function Set_db($country)
     {
         $state_handle = $this->db_connect->prepare("INSERT INTO country (Country) VALUES (:country)");
