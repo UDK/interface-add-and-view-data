@@ -7,10 +7,13 @@ class work_with_db
 
     public function __construct()
     {
-        //
-        if (!@include_once('./config/config.php')) {
+
+        if (!@include_once('./config/config.php'))
+        {
             die('File with config not found');
-        } else {
+        }
+        else
+        {
             $this->config = @include('./config/config.php');
             $this->Connect();
         }
@@ -18,11 +21,15 @@ class work_with_db
 
     private function Connect()
     {
-        try {
+        try
+        {
             $dns = 'mysql:host=' . $this->config['host'] . ';dbname=' . $this->config['db_name'];
             $this->db_connect = new PDO($dns, $this->config['username'], $this->config['password']);
-        } catch (PDOException $e) {
-            echo $e->getMessage();
+        }
+        catch (PDOException $e)
+        {
+            echo "Невозможно подключиться к серверу";
+            die();
         }
     }
 
