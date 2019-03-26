@@ -24,7 +24,7 @@ if ($_GET['switch'] == true)
     $arr_country = array();
     for ($i = 0; $i < count($bd); $i++)
     {
-        $arr_country += array($i => $bd[$i]['Country']);
+        $arr_country += array($i => htmlspecialchars($bd[$i]['Country']));
     }
     echo json_encode($arr_country);
 }
